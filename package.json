@@ -1,0 +1,27 @@
+{
+  "name": "ui-playwright-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "head": "npx playwright test --headed",
+    "jumiawebtest": "npx playwright test tests/jumiaweb.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demilade19/UI-Playwright-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/demilade19/UI-Playwright-test/issues"
+  },
+  "homepage": "https://github.com/demilade19/UI-Playwright-test#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1"
+  }
+}
